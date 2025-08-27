@@ -19,7 +19,7 @@ def menu():
         print()
         dividir()
     elif opcion==4:
-        print("")
+        print("Calculadora para multiplicar")
         multiplicar()
     elif opcion==5:
         print()
@@ -44,7 +44,7 @@ def restar(numero1, numero2):
 def dividir(numero1, numero2):
     print()
     return
-def multiplicar(numero1, numero2):
+def multiplicar():
     numero1 = int(input("Ingrese el primer numero: "))
     numero2 = int(input("Ingrese el segundo numero: "))
     resultado = numero1 * numero2

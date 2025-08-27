@@ -54,7 +54,10 @@ def multiplicar(numero1, numero2):
 def elevar(numero1, numero2):
     print()
     return
-def raiz_cuadrada(numero1, numero2):
+def raiz_cuadrada(numero1):
+    numero1 = int(input('Numero 1: '))
+    raiz_cuadrada = numero1**0.5
+    print(f"la raíz cuadrada de {numero1} es: {raiz_cuadrada}")
     print()
     return
 def tablas_multiplicar(numero1, numero2):

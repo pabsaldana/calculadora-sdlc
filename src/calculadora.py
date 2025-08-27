@@ -19,7 +19,7 @@ def menu():
         print()
         multiplicar()
     elif opcion==4:
-        print()
+        print("Calculadora para dividir:")
         dividir()
     elif opcion==5:
         print()
@@ -41,9 +41,17 @@ def sumar(numero1, numero2):
 def restar(numero1, numero2):
     print()
     return
-def dividir(numero1, numero2):
-    print()
-    return
+def dividir():
+    print("Ingrese los valores correspondientes")
+    numero1 = int(input("Ingrese el dividendo: "))
+    numero2 = int(input("Ingrese el divisor: "))
+    print("Calculando.....")
+    try:
+        division = numero1 / numero2
+        print("El valor de la division es: ")
+        return round(division, 3)
+    except ZeroDivisionError:
+        print("No se puede dividir entre 0!!!")
 def multiplicar(numero1, numero2):
     print()
     return
@@ -57,3 +65,4 @@ def tablas_multiplicar(numero1, numero2):
     print()
     return
 
+menu()

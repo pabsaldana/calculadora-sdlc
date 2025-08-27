@@ -13,7 +13,7 @@ def menu():
         print()
         sumar()
     elif opcion==2:
-        print()
+        print('Ingresa los numeros a restar:')
         restar()
     elif opcion==3:
         print()
@@ -38,13 +38,12 @@ def menu():
 def sumar(numero1, numero2):
     print()
     return
-def restar(numero1, numero2):
-    print('Ingresa los numeros a restar:')
+def restar():
     numero1 = int(input('Numero 1: '))
     numero2 = int(input('Numero 2: '))
-    resu = numero1 - numero2
-    print(f'{numero1} - {numero2} = {numero1 - numero2}')
-    return resu
+    resultado = numero1 - numero2
+    print(f'{numero1} - {numero2} = {resultado}')
+    return resultado
 def dividir(numero1, numero2):
     print()
     return
@@ -60,3 +59,5 @@ def raiz_cuadrada(numero1, numero2):
 def tablas_multiplicar(numero1, numero2):
     print()
     return
+
+menu()

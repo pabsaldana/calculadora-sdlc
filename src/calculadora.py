@@ -39,7 +39,10 @@ def sumar(numero1, numero2):
     print()
     return
 def restar(numero1, numero2):
-    print()
+    print('Ingresa los numeros a restar:')
+    numero1 = int(input('Numero 1: '))
+    numero2 = int(input('Numero 2: '))
+    print(f'{numero1} - {numero2} = {numero1 - numero2}')
     return
 def dividir(numero1, numero2):
     print()

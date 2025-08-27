@@ -17,10 +17,10 @@ def menu():
         restar()
     elif opcion==3:
         print()
-        multiplicar()
-    elif opcion==4:
-        print()
         dividir()
+    elif opcion==4:
+        print("")
+        multiplicar()
     elif opcion==5:
         print()
         elevar()

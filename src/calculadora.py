@@ -45,7 +45,10 @@ def dividir(numero1, numero2):
     print()
     return
 def multiplicar(numero1, numero2):
-    print()
+    numero1 = int(input("Ingrese el primer numero: "))
+    numero2 = int(input("Ingrese el segundo numero: "))
+    resultado = numero1 * numero2
+    print(f"El resultado de la multiplicación es: {resultado}")
     return
 def elevar(numero1, numero2):
     print()
@@ -57,3 +60,4 @@ def tablas_multiplicar(numero1, numero2):
     print()
     return
 
+menu()

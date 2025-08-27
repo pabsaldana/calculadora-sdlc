@@ -19,7 +19,11 @@ def menu():
         print()
         dividir()
     elif opcion==4:
+<<<<<<< Updated upstream
         print("Calculadora para multiplicar")
+=======
+        print()
+>>>>>>> Stashed changes
         multiplicar()
     elif opcion==5:
         print()
@@ -49,7 +53,10 @@ def multiplicar():
     numero2 = int(input("Ingrese el segundo numero: "))
     resultado = numero1 * numero2
     print(f"El resultado de la multiplicación es: {resultado}")
+<<<<<<< Updated upstream
     return
+=======
+>>>>>>> Stashed changes
 def elevar(numero1, numero2):
     print()
     return

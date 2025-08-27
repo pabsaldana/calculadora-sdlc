@@ -39,8 +39,12 @@ def sumar(numero1, numero2):
     print()
     return
 def restar(numero1, numero2):
-    print()
-    return
+    print('Ingresa los numeros a restar:')
+    numero1 = int(input('Numero 1: '))
+    numero2 = int(input('Numero 2: '))
+    resu = numero1 - numero2
+    print(f'{numero1} - {numero2} = {numero1 - numero2}')
+    return resu
 def dividir(numero1, numero2):
     print()
     return
@@ -56,4 +60,3 @@ def raiz_cuadrada(numero1, numero2):
 def tablas_multiplicar(numero1, numero2):
     print()
     return
-

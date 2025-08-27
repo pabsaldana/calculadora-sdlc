@@ -8,7 +8,7 @@ def menu():
     print("6) raiz")
     print("7) Tabla de multiplicar")
     print("8) Salir")
-    opcion= int(input("Ingrese opcion a trabajar"))
+    opcion= int(input("Ingrese opcion a trabajar: "))
     if opcion==1:
         print()
         sumar()
@@ -28,8 +28,8 @@ def menu():
         print()
         raiz_cuadrada()
     elif opcion==7:
-        print()
-        tablas_multiplicar()
+        nume= int(input("Que tabla desea ver? "))
+        tablas_multiplicar(nume)
     elif opcion==8:
         print()
     else:
@@ -62,5 +62,3 @@ def raiz_cuadrada(numero1):
 def tablas_multiplicar(numero1, numero2):
     print()
     return
-
-menu()

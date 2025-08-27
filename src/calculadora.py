@@ -8,7 +8,7 @@ def menu():
     print("6) raiz")
     print("7) Tabla de multiplicar")
     print("8) Salir")
-    opcion= int(input("Ingrese opcion a trabajar"))
+    opcion= int(input("Ingrese opcion a trabajar: "))
     if opcion==1:
         print()
         sumar()

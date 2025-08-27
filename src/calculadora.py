@@ -17,10 +17,10 @@ def menu():
         restar()
     elif opcion==3:
         print()
-        multiplicar()
+        dividir()
     elif opcion==4:
         print()
-        dividir()
+        multiplicar()
     elif opcion==5:
         print()
         elevar()
@@ -48,8 +48,11 @@ def restar(numero1, numero2):
 def dividir(numero1, numero2):
     print()
     return
-def multiplicar(numero1, numero2):
-    print()
+def multiplicar():
+    numero1 = int(input("Ingrese el primer número: "))
+    numero2 = int(input("Ingrese el segundo número: "))
+    resultado = numero1 * numero2
+    print(f'El resultado de la multiplicación es: {resultado}')
     return
 def elevar(numero1, numero2):
     print()
